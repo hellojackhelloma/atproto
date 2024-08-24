@@ -26,7 +26,7 @@ export const mockResolvers = (idResolver: IdResolver, pds: TestPds) => {
     if (typeof service?.serviceEndpoint === 'string') {
       service.serviceEndpoint = service.serviceEndpoint.replace(
         pds.ctx.cfg.service.publicUrl,
-        'http://localhost:2583',
+        'https://linxme.com',
       )
     }
     return result
