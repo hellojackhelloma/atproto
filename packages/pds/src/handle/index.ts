@@ -35,6 +35,7 @@ export const normalizeAndValidateHandle = async (opts: {
       allowReserved,
     )
   } else {
+    console.log('opts:', opts)
     if (opts.did === undefined) {
       throw new InvalidRequestError(
         'Not a supported handle domain',
