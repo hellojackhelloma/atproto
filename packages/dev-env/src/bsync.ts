@@ -18,7 +18,7 @@ export class TestBsync {
       apiKeys: cfg.apiKeys ?? ['api-key'],
       ...cfg,
     })
-    console.log("config:",config)
+    console.log("bsync config:",config)
     const service = await bsync.BsyncService.create(config)
     await service.ctx.db.migrateToLatestOrThrow()
     await service.start()
