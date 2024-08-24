@@ -81,7 +81,7 @@ export class TestBsky {
       await migrationDb.migrateToLatestOrThrow()
     }
     await migrationDb.close()
-
+console.log('config:',config)
     // api server
     const server = bsky.BskyAppView.create({
       config,

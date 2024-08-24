@@ -84,7 +84,7 @@ export class TestOzone {
 
     const cfg = ozone.envToCfg(env)
     const secrets = ozone.envToSecrets(env)
-
+    console.log("cfg:",cfg)
     // api server
     const server = await ozone.OzoneService.create(cfg, secrets, {
       imgInvalidator: config.imgInvalidator,
