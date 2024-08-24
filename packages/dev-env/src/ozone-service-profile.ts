@@ -8,8 +8,8 @@ export class OzoneServiceProfile {
   thirdPartyPdsClient: AtpAgent
 
   modUserDetails = {
-    email: 'mod-authority@test.com',
-    handle: 'mod-authority.test',
+    email: 'mod-authority@linxme.com',
+    handle: 'mod-authority.linxme.com',
     password: 'hunter2',
   }
 
