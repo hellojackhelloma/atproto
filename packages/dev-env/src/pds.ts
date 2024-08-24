@@ -37,7 +37,7 @@ export class TestPds {
       recoveryDidKey: recoveryKey,
       adminPassword: ADMIN_PASSWORD,
       jwtSecret: JWT_SECRET,
-      serviceHandleDomains: ['.test'],
+      serviceHandleDomains: ['.linxme.com'],
       bskyAppViewUrl: 'https://appview.invalid',
       bskyAppViewDid: 'did:example:invalid',
       bskyAppViewCdnUrlPattern: 'http://cdn.appview.com/%s/%s/%s',
