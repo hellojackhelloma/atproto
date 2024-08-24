@@ -59,7 +59,7 @@ export class TestPds {
     }
     const cfg = pds.envToCfg(env)
     const secrets = pds.envToSecrets(env)
-
+console.log("cfg:",cfg)
     const server = await pds.PDS.create(cfg, secrets)
 
     await server.start()
